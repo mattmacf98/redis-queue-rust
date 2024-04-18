@@ -118,8 +118,8 @@ async fn main() {
                         tokio::time::sleep(five_seconds).await;
                     }
                 }
-                }
-            },
-            _ => panic!("{} app type is not supported", app_type)
+            }
+        },
+        _ => panic!("{} app type is not supported", app_type)
     }
 }
